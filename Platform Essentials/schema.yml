@@ -1,0 +1,125 @@
+type: array
+description: List of enriched platform documents with metadata, content counts, and pricing info.
+items:
+  type: object
+  properties:
+    Name:
+      type: string
+      nullable: false
+      description: Platform Name
+    Owner:
+      type: array
+      items:
+        type: string
+      description: List of platform owners
+    Country:
+      type: string
+      nullable: false
+      description: Country name
+    Status:
+      type: string
+      nullable: true
+      description: Availability status (e.g., "available", "announced")
+    OriginCountry:
+      type: array
+      items:
+        type: string
+      description: Countries where the platform originated
+    LaunchYear:
+      type: integer
+      nullable: true
+      description: Year the platform was launched in this specific country
+    Type:
+      type: array
+      nullable: false
+      items:
+        type: string
+        enum:
+          - "Independent"
+          - "Programmer"
+          - "MSO"
+      description: Platform Type
+    LiveStreamingOffer:
+      type: boolean
+      description: Whether the platform offers live streaming
+    BusinessModel:
+      type: array
+      items:
+        type: string
+        enum:
+          - "Subscription"
+          - "Transactional"
+          - "Validated VOD"
+          - "TV Everywhere"
+          - "Free VOD"
+          - "Advertising VOD"
+          - "Señal VOD"
+          - "Señal OD Premium"
+          - "Ad Supported Subscription VOD"
+      description: Revenue models used by the platform
+    WebLink:
+      type: string
+      nullable: true
+      description: URL to the platform's website
+    IosLink:
+      type: string
+      nullable: true
+      description: Link to the iOS app
+    AndroidLink:
+      type: string
+      nullable: true
+      description: Link to the Android app
+    ContentAggregator:
+      type: boolean
+      nullable: false
+      description: Whether the platform is a content aggregator
+    Subtitles:
+      type: boolean
+      description: Whether the platform offers subtitles
+    OriginalOffer:
+      type: boolean
+      description: Whether the platform produces original content
+    Language:
+      type: string
+      nullable: false
+      description: Primary language of the platform
+    Iso:
+      type: string
+      description: ISO Alpha-2 country code
+    Movies:
+      type: integer
+      description: Count of available movies
+    Series:
+      type: integer
+      description: Count of available series
+    Originals:
+      type: integer
+      description: Count of original titles
+    LocalProductions:
+      type: integer
+      description: Count of local productions (based on country match)
+    CurrentYearReleases:
+      type: integer
+      description: Count of titles released in the current year
+    CheapestStarterPrice:
+      type: number
+      nullable: true
+      description: Price of the cheapest starter plan
+    StarterPlansCount:
+      type: integer
+      description: Number of starter plans available
+    AdditionalPlansCount:
+      type: integer
+      description: Number of additional plans available
+    Currency:
+      type: string
+      nullable: true
+      description: Currency of the plans
+    TopGenres:
+      type: array
+      items:
+        type: string
+      description: List of top genres based on content availability (up to 3)
+    Profiles:
+      type: integer
+      description: Number of user profiles
