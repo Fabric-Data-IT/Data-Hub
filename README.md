@@ -7,7 +7,7 @@
 
 ## BB Media Data Hub
 
-The **BB Media Data Hub** repository is your central resource for accessing YML schemas and a valuable wiki with detailed information about services on our S3. Here you will find everything you need to work efficiently with media data.
+The **Fabric Data Hub** repository is your central resource for accessing YML schemas and a valuable wiki with detailed information about services on our S3. Here you will find everything you need to work efficiently with media data.
 
 ### Available Schemas
 
