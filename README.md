@@ -1,13 +1,13 @@
 <p align="center">
 <image
-  src="https://github.com/BB-Media-IT/.github/assets/4085605/c08bf803-09ca-420c-b728-8f6ea85b3aa2"
-  height=120
+  src="https://github.com/user-attachments/assets/dab09d62-2337-40eb-a069-81bf0f0c6aa2"
+  height=200
   margin=0>
 </p>
 
-## BB Media Data Hub
+## Fabric Data - DataHub
 
-The **Fabric Data Hub** repository is your central resource for accessing YML schemas and a valuable wiki with detailed information about services on our S3. Here you will find everything you need to work efficiently with media data.
+The **Fabric Data - DataHub** repository is your central resource for accessing YML schemas and a valuable wiki with detailed information about services on our S3. Here you will find everything you need to work efficiently with media data.
 
 ### Available Schemas
 
@@ -44,4 +44,4 @@ To obtain a full demonstration of our capabilities, you must request an access k
 
 ### More information
 
-For more details about our services and how to make the most of our data, visit our [wiki](https://github.com/BB-Media-IT/Data-Hub/wiki).
+For more details about our services and how to make the most of our data, visit our [wiki](https://github.com/Fabric-Data-IT/Data-Hub/wiki).
