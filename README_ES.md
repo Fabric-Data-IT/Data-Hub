@@ -1,13 +1,13 @@
 <p align="center">
 <image
-  src="https://s3.invisionapp-cdn.com/storage.invisionapp.com/boards/files/183060432.png?x-amz-meta-iv=1&x-amz-meta-ck=cd20ea812f8ae161523111afa5aea5e8&AWSAccessKeyId=AKIAWCDCF6QSLTS7LRWT&Expires=1717200000&Signature=90X61ZsbGe2EneL7IRbEzerj7Oc%3D"
-  height=120
+  src="https://github.com/user-attachments/assets/dab09d62-2337-40eb-a069-81bf0f0c6aa2"
+  height=200
   margin=0>
 </p>
 
-## BB Media Data Hub
+## Fabric Data - DataHub
 
-El repositorio **BB Media Data Hub** es su recurso central para acceder a esquemas en formato YML y una valiosa wiki con información detallada sobre servicios en nuestro S3. Aquí encontrará todo lo que necesita para trabajar eficientemente con datos de medios.
+El repositorio **Fabric Data - DataHub** es su recurso central para acceder a esquemas en formato YML y una valiosa wiki con información detallada sobre servicios en nuestro S3. Aquí encontrará todo lo que necesita para trabajar eficientemente con datos de medios.
 
 ### Esquemas disponibles
 
@@ -16,12 +16,12 @@ En nuestro repositorio, ofrecemos esquemas para una amplia gama de productos y s
 - Audiovisual Identifiers & Metadata
 - Awards
 - Content Tracker & Coming Soon
-- Distributor
 - Hits
 - Livestreaming & Fast Channels
+- Online Audits
+- Platform Essentials
 - Prices, Plans & Bundles
 - Streaming Availability & Content Pulse
-- Top Ten
 
 ### Herramientas y recursos
 
@@ -44,4 +44,4 @@ Para obtener una demostración completa de nuestras capacidades, debe solicitar 
 
 ### Más información
 
-Para más detalles sobre nuestros servicios y cómo aprovechar al máximo nuestros datos, visite nuestra [wiki](https://github.com/BB-Media-IT/Data-Hub/wiki).
+Para más detalles sobre nuestros servicios y cómo aprovechar al máximo nuestros datos, visite nuestra [wiki](https://github.com/Fabric-Data-IT/Data-Hub/wiki).

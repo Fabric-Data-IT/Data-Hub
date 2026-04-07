@@ -16,12 +16,12 @@ In our repository, we offer schemas for a wide range of products and services, i
 - Audiovisual Identifiers & Metadata
 - Awards
 - Content Tracker & Coming Soon
-- Distributor
 - Hits
 - Livestreaming & Fast Channels
+- Online Audits
+- Platform Essentials
 - Prices, Plans & Bundles
 - Streaming Availability & Content Pulse
-- Top Ten
 
 ### Tools and resources
 
