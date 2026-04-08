@@ -1,0 +1,44 @@
+BBIDs:
+  type: object
+  properties:
+    UID:
+      type: string
+      description: The ID created by BB which identifies a group of external IDs.
+    ExternalIds:
+      type: array
+      items:
+        type: object
+        properties:
+          UID:
+            type: string
+            description: The ID created by BB which identifies a group of external IDs.
+          Provider:
+            type: string
+            description: Identifies the source of the ID.
+            enum:
+              - imdb
+              - tmdb
+              - tvdb
+              - eidr
+              - douban
+              - filmweb
+          ID:
+            type: string
+            description: The ID from the external provider.
+          Type:
+            type: string
+            description: The type assigned by the external provider.
+            enum:
+              - Movie
+              - Tv Show
+              - Episode
+          CreatedAt:
+            type: string
+            format: date-time
+            example: 2017-07-21T17:32:28Z
+            description: The time when the ID was inserted in our database.
+          UpdatedAt:
+            type: string
+            format: date-time
+            example: 2017-07-21T17:32:28Z
+            description: The time when the ID was last updated in our database.
