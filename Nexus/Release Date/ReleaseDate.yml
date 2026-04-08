@@ -5,7 +5,9 @@ ReleaseDate:
     UID:
       type: string
       description: The unique identifier for the content.
-      example: "asdadad"
+    NexusId:
+      type: string
+      description: The unique identifier for the content.
     OriginalReleaseDate:
       type: string
       format: date
