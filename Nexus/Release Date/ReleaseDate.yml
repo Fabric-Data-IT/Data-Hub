@@ -1,0 +1,29 @@
+ReleaseDate:
+  type: object
+  description: Schema for content release dates across different countries. Data is delivered in JSONL format.
+  properties:
+    UID:
+      type: string
+      description: The unique identifier for the content.
+      example: "asdadad"
+    OriginalReleaseDate:
+      type: string
+      format: date
+      description: The original release date of the content.
+      example: "2024-05-15"
+    ReleaseDates:
+      type: array
+      description: List of release dates by country.
+      items:
+        type: object
+        properties:
+          Country:
+            type: string
+            format: ISO 3166-1 alpha-2
+            description: The country code in ISO 3166-1 alpha-2 format.
+            example: "US"
+          Date:
+            type: string
+            format: date
+            description: The release date in the specified country.
+            example: "2024-06-01"
