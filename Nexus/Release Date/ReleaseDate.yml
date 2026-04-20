@@ -31,5 +31,15 @@ ReleaseDate:
             example: "2024-06-01"
           Type:
             type: string
-            description: The type of release event as reported by the source (e.g., theatrical, streaming, TV premiere).
+            enum:
+              - On_Demand_Release
+              - Theatrical_Limited_Release
+              - Digital
+              - Theatrical_Wide_Release
+              - Physical
+              - Show_Release
+              - TV
+              - Premiere
+              - Festival
+            description: The type of release event as reported by the source.
             example: "Show_Release"
