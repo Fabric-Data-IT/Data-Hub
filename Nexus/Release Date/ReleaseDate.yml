@@ -29,3 +29,7 @@ ReleaseDate:
             format: date
             description: The release date in the specified country.
             example: "2024-06-01"
+          Type:
+            type: string
+            description: The type of release event as reported by the source (e.g., theatrical, streaming, TV premiere).
+            example: "Show_Release"
