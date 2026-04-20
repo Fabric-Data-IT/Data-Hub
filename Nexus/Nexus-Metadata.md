@@ -89,6 +89,7 @@ Contains the original release date and country-specific release dates for audiov
 |-------|------|-------------|---------|
 | Country | string (ISO 3166-1 alpha-2) | The country code in ISO 3166-1 alpha-2 format. | `"US"` |
 | Date | string (date) | The release date in the specified country in `YYYY-MM-DD` format. | `"2024-06-01"` |
+| Type | string | The type of release event as reported by the source (e.g., theatrical, streaming, TV premiere). | `"Show_Release"` |
 
 ---
 
